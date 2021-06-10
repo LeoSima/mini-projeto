@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    --cor0: #FF8700;
+    --cor1: #E3650B;
+    --cor3: #FA4B00;
+    --cor4: #E3330B;
+    --cor5: #FB1C0D;
+    --fonte0: 'Noto Sans JP'
+}
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte0);
 }
