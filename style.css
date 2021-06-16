@@ -1,8 +1,11 @@
+@charset "UTF8";
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 
 :root{
-    --cor0: #FF8700;
-    --cor1: #E3650B;
+    --cor0: #f09319;
+    --cor1: #FF8700;
+    --cor2: #E3650B;
     --cor3: #FA4B00;
     --cor4: #E3330B;
     --cor5: #FB1C0D;
@@ -11,4 +14,8 @@
 
 *{
     font-family: var(--fonte0);
+}
+
+body{
+    background-color: var(--cor0);
 }
