@@ -10,7 +10,7 @@
 }
 
 :root{
-    --cor0: #f09319;
+    --cor0: #1f1f1f;
     --cor1: #FF8700;
     --cor2: #E3650B;
     --cor3: #FA4B00;
@@ -33,9 +33,15 @@ header{
     border-bottom: 2.5px solid black;
 }
 
+nav{
+    background-image: linear-gradient(135deg, var(--cor5), var(--cor3), var(--cor1));
+    border-bottom: 2.5px solid black;
+}
+
 main{
+    background-color: rgb(231, 231, 231);
     margin: 10px 30px 50px 30px;
-     border: 2px solid black;
+    border: 2px solid black;
 }
 
 article{
