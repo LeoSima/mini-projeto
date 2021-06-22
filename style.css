@@ -33,6 +33,18 @@ header{
     border-bottom: 2.5px solid black;
 }
 
+header>h1{
+    font-family: 'Sketch', Times, serif;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+header>p{
+    font-family: 'Sketch', Times, serif;
+    font-weight: normal;
+    font-size: 28px;
+}
+
 nav{
     background-image: linear-gradient(135deg, var(--cor5), var(--cor3), var(--cor1));
     border-bottom: 2.5px solid black;
@@ -40,17 +52,19 @@ nav{
 
 main{
     background-color: rgb(231, 231, 231);
+    padding: 8px;
     margin: 10px 30px 50px 30px;
     border: 2px solid black;
 }
 
 article{
-    border: 2px solid black;
+    padding: 5px;
     margin: 10px 5px 5px 5px;
 }
 
 aside{
     border: solid 2px black;
+    padding: 5px;
     margin: 10px 5px 5px 5px;
 }
 
@@ -59,10 +73,6 @@ footer{
     padding: 10px;
 }
 
-header>h1{
-    font-family: 'Sketch', Times, serif;
-    font-weight: normal;
-}
 
 footer{
     background-image: linear-gradient(135deg, var(--cor5), var(--cor3), var(--cor1));
