@@ -16,10 +16,13 @@
     --cor3: #FA4B00;
     --cor4: #E3330B;
     --cor5: #FB1C0D;
+    
     --fonte0: 'Noto Sans JP'
 }
 
 *{
+    margin: 0px;
+    padding:0px;
     font-family: var(--fonte0);
 }
 
