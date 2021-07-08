@@ -50,6 +50,7 @@ header p{
     font-family: 'Sketch', Times, serif;
     font-weight: normal;
     font-size: 28px;
+    text-align: center;
 }
 
 nav{
@@ -59,6 +60,7 @@ nav{
 
 nav a{
     margin: 0px 5.2px;
+    color: #000000;
 }
 
 main{
@@ -97,14 +99,20 @@ aside{
     margin: 10px 5px 5px 5px;
 }
 
+
 footer{
+    background-image: linear-gradient(135deg, var(--cor5), var(--cor3), var(--cor1));
     border: 2px solid black;
     padding: 10px;
 }
 
-
-footer{
-    background-image: linear-gradient(135deg, var(--cor5), var(--cor3), var(--cor1));
+footer img{
+    border: solid 1.5px rgb(0, 0, 0);
+    margin: 8px;
+    border-radius: 100%;
+    width: auto;
+    max-width: 100px;
+    float: left;
 }
 
 footer h2{
