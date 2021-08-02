@@ -69,7 +69,6 @@ nav a{
 
 nav a:hover{
     background-color: var(--cor3);
-    font-weight: bold;
     border-radius: 5px;
     transition-duration: 0.3s;
 }
@@ -122,9 +121,14 @@ article p{
 }
 
 aside{
-    border: solid 2px black;
+    background-color: var(--cor0);
+    border-radius: 5px;
     padding: 5px;
     margin: 10px 5px 5px 5px;
+}
+
+aside p{
+    color: white
 }
 
 
