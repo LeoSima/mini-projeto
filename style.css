@@ -38,7 +38,7 @@ p{
 
 header{
     min-height: 150px;
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background: linear-gradient(to bottom, var(--cor3), var(--cor5));
     text-align: center;
     padding-top: 38px;
 }
