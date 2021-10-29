@@ -149,7 +149,7 @@ aside p{
 
 
 footer{
-    background-image: linear-gradient(to bottom, var(--cor5), var(--cor4));
+    background: linear-gradient(to bottom, var(--cor5), var(--cor4));
     border: 2px solid black;
     padding: 10px;
     min-height: 180px;
